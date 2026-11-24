@@ -1,0 +1,31 @@
+PSD POR CAPAS · v0.2
+====================
+Suelta una creatividad terminada (JPG o PNG) y te devuelve un PSD con cada elemento en su capa:
+textos, logo, productos, botones, QR, decoración, personajes… con nombres y grupos, más el fondo limpio
+debajo y la creatividad original oculta arriba del todo para comparar.
+
+INSTALAR (una sola vez, ~10 min)
+1. Doble clic en «Instalar PSD por capas.command».
+   Si el Mac dice que no puede abrirlo: clic derecho → Abrir → Abrir.
+2. Si te pide iniciar sesión en Claude Code, entra con TU cuenta de Claude.
+3. Cuando termine, arrastra «PSD por capas» (en tu carpeta Aplicaciones de usuario) al Dock.
+
+USAR
+- Arrastra una o varias imágenes encima del icono del Dock (o haz doble clic en el icono y elígelas).
+- Sale una barra de progreso. Cada imagen tarda unos 2-6 minutos (más si lleva muchas personas).
+- El PSD aparece en la MISMA carpeta que la imagen: «<nombre>_capas.psd».
+- Si al terminar te dice «revisar», el PSD está hecho, pero mira la hoja «_revision.png» que deja al lado.
+
+LO QUE CONVIENE SABER
+- Los textos salen como imagen (no como texto editable): para cambiar una palabra hay que reescribirla
+  con la tipografía de la marca. El nombre de la capa dice qué texto es.
+- Las personas sobre una foto se recortan una a una (cada personaje en su capa) y el fondo de debajo se
+  rellena con IA para que puedas moverlas. Bien, pero no perfecto: revisa pelo, plumas y bajos de vestidos.
+  Con personas tarda más: unos 30-60 s por personaje.
+- Donde había un objeto grande, el fondo limpio está reconstruido: revísalo si vas a mover ese objeto.
+- Usa tu propio plan de Claude Code: si te sale «límite de uso», espera un rato y vuelve a probar.
+
+Si algo falla, el mensaje de error lleva la ruta de la carpeta de trabajo con el registro completo.
+
+PRIMERA PRUEBA
+Arrastra «examples/demo_flyer.png» y mira el PSD que sale a su lado.
